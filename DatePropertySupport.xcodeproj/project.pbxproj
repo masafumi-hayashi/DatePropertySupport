@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FA8918819041E9C001C290C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA8918719041E9C001C290C /* Foundation.framework */; };
+		7FA8918D19041E9C001C290C /* DatePropertySupport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FA8918C19041E9C001C290C /* DatePropertySupport.h */; };
+		7FA8918F19041E9C001C290C /* DatePropertySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8918E19041E9C001C290C /* DatePropertySupport.m */; };
+		7FA8919619041E9C001C290C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA8919519041E9C001C290C /* XCTest.framework */; };
+		7FA8919719041E9C001C290C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA8918719041E9C001C290C /* Foundation.framework */; };
+		7FA8919919041E9C001C290C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA8919819041E9C001C290C /* UIKit.framework */; };
+		7FA8919C19041E9C001C290C /* libDatePropertySupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA8918419041E9C001C290C /* libDatePropertySupport.a */; };
+		7FA891A219041E9C001C290C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FA891A019041E9C001C290C /* InfoPlist.strings */; };
+		7FA891A419041E9C001C290C /* DatePropertySupportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA891A319041E9C001C290C /* DatePropertySupportTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FA8919A19041E9C001C290C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA8917C19041E9C001C290C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FA8918319041E9C001C290C;
+			remoteInfo = DatePropertySupport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7FA8918219041E9C001C290C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7FA8918D19041E9C001C290C /* DatePropertySupport.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7FA8918419041E9C001C290C /* libDatePropertySupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDatePropertySupport.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA8918719041E9C001C290C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FA8918B19041E9C001C290C /* DatePropertySupport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatePropertySupport-Prefix.pch"; sourceTree = "<group>"; };
+		7FA8918C19041E9C001C290C /* DatePropertySupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePropertySupport.h; sourceTree = "<group>"; };
+		7FA8918E19041E9C001C290C /* DatePropertySupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePropertySupport.m; sourceTree = "<group>"; };
+		7FA8919419041E9C001C290C /* DatePropertySupportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePropertySupportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA8919519041E9C001C290C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7FA8919819041E9C001C290C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FA8919F19041E9C001C290C /* DatePropertySupportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DatePropertySupportTests-Info.plist"; sourceTree = "<group>"; };
+		7FA891A119041E9C001C290C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FA891A319041E9C001C290C /* DatePropertySupportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePropertySupportTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FA8918119041E9C001C290C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA8918819041E9C001C290C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA8919119041E9C001C290C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA8919619041E9C001C290C /* XCTest.framework in Frameworks */,
+				7FA8919919041E9C001C290C /* UIKit.framework in Frameworks */,
+				7FA8919C19041E9C001C290C /* libDatePropertySupport.a in Frameworks */,
+				7FA8919719041E9C001C290C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FA8917B19041E9C001C290C = {
+			isa = PBXGroup;
+			children = (
+				7FA8918919041E9C001C290C /* DatePropertySupport */,
+				7FA8919D19041E9C001C290C /* DatePropertySupportTests */,
+				7FA8918619041E9C001C290C /* Frameworks */,
+				7FA8918519041E9C001C290C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FA8918519041E9C001C290C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8918419041E9C001C290C /* libDatePropertySupport.a */,
+				7FA8919419041E9C001C290C /* DatePropertySupportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FA8918619041E9C001C290C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8918719041E9C001C290C /* Foundation.framework */,
+				7FA8919519041E9C001C290C /* XCTest.framework */,
+				7FA8919819041E9C001C290C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FA8918919041E9C001C290C /* DatePropertySupport */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8918C19041E9C001C290C /* DatePropertySupport.h */,
+				7FA8918E19041E9C001C290C /* DatePropertySupport.m */,
+				7FA8918A19041E9C001C290C /* Supporting Files */,
+			);
+			path = DatePropertySupport;
+			sourceTree = "<group>";
+		};
+		7FA8918A19041E9C001C290C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8918B19041E9C001C290C /* DatePropertySupport-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FA8919D19041E9C001C290C /* DatePropertySupportTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FA891A319041E9C001C290C /* DatePropertySupportTests.m */,
+				7FA8919E19041E9C001C290C /* Supporting Files */,
+			);
+			path = DatePropertySupportTests;
+			sourceTree = "<group>";
+		};
+		7FA8919E19041E9C001C290C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8919F19041E9C001C290C /* DatePropertySupportTests-Info.plist */,
+				7FA891A019041E9C001C290C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FA8918319041E9C001C290C /* DatePropertySupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA891A719041E9C001C290C /* Build configuration list for PBXNativeTarget "DatePropertySupport" */;
+			buildPhases = (
+				7FA8918019041E9C001C290C /* Sources */,
+				7FA8918119041E9C001C290C /* Frameworks */,
+				7FA8918219041E9C001C290C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePropertySupport;
+			productName = DatePropertySupport;
+			productReference = 7FA8918419041E9C001C290C /* libDatePropertySupport.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7FA8919319041E9C001C290C /* DatePropertySupportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA891AA19041E9C001C290C /* Build configuration list for PBXNativeTarget "DatePropertySupportTests" */;
+			buildPhases = (
+				7FA8919019041E9C001C290C /* Sources */,
+				7FA8919119041E9C001C290C /* Frameworks */,
+				7FA8919219041E9C001C290C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FA8919B19041E9C001C290C /* PBXTargetDependency */,
+			);
+			name = DatePropertySupportTests;
+			productName = DatePropertySupportTests;
+			productReference = 7FA8919419041E9C001C290C /* DatePropertySupportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FA8917C19041E9C001C290C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "masafumi hayashi";
+			};
+			buildConfigurationList = 7FA8917F19041E9C001C290C /* Build configuration list for PBXProject "DatePropertySupport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FA8917B19041E9C001C290C;
+			productRefGroup = 7FA8918519041E9C001C290C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FA8918319041E9C001C290C /* DatePropertySupport */,
+				7FA8919319041E9C001C290C /* DatePropertySupportTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FA8919219041E9C001C290C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA891A219041E9C001C290C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FA8918019041E9C001C290C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA8918F19041E9C001C290C /* DatePropertySupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA8919019041E9C001C290C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA891A419041E9C001C290C /* DatePropertySupportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FA8919B19041E9C001C290C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FA8918319041E9C001C290C /* DatePropertySupport */;
+			targetProxy = 7FA8919A19041E9C001C290C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FA891A019041E9C001C290C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FA891A119041E9C001C290C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FA891A519041E9C001C290C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FA891A619041E9C001C290C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FA891A819041E9C001C290C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DatePropertySupport.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePropertySupport/DatePropertySupport-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7FA891A919041E9C001C290C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DatePropertySupport.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePropertySupport/DatePropertySupport-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7FA891AB19041E9C001C290C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePropertySupport/DatePropertySupport-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DatePropertySupportTests/DatePropertySupportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7FA891AC19041E9C001C290C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePropertySupport/DatePropertySupport-Prefix.pch";
+				INFOPLIST_FILE = "DatePropertySupportTests/DatePropertySupportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FA8917F19041E9C001C290C /* Build configuration list for PBXProject "DatePropertySupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA891A519041E9C001C290C /* Debug */,
+				7FA891A619041E9C001C290C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA891A719041E9C001C290C /* Build configuration list for PBXNativeTarget "DatePropertySupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA891A819041E9C001C290C /* Debug */,
+				7FA891A919041E9C001C290C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA891AA19041E9C001C290C /* Build configuration list for PBXNativeTarget "DatePropertySupportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA891AB19041E9C001C290C /* Debug */,
+				7FA891AC19041E9C001C290C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FA8917C19041E9C001C290C /* Project object */;
+}
