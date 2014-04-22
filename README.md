@@ -1,0 +1,4 @@
+DatePropertySupport
+===================
+
+NSDate property support
